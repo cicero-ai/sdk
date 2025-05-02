@@ -1,5 +1,5 @@
 {
-    "name": "aquila/sdk",
+    "name": "aquila/cicero-sdk",
     "description": "SDK for Cicero application such as Sophia NLU engine",
     "type": "project",
     "homepage": "https://cicero.sh",
