@@ -1,0 +1,29 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cicero-sdk"
+version = "0.1.0"
+authors = [
+  { name = "Aquila Labs", email = "matt@cicero.sh" },
+]
+description = "A Python SDK for Cicero RPC interactions"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "requests>=2.28.0",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://cicero.sh"
+Issues = "https://github.com/cicero-ai/sdk/issues"
+
+
+

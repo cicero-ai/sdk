@@ -1,0 +1,28 @@
+
+{
+  "name": "cicero-sdk",
+  "version": "0.1.0",
+  "description": "A Node.js SDK for Cicero RPC interactions",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "example": "node example.js"
+  },
+  "keywords": ["cicero", "rpc", "sdk"],
+  "author": "Aquila Labs <matt@cicero.sh>",
+  "license": "GPLv3",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cicero-ai/sdk/"
+  },
+  "homepage": "https://cicero.sh"
+}
+
+
